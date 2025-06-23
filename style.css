@@ -1,0 +1,52 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff0f6;
+  color: #222;
+  text-align: center;
+  padding: 60px 30px;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #d63384;
+  font-size: 2.5rem;
+  animation: fadeIn 1.2s ease;
+}
+p {
+  font-size: 18px;
+  margin: 10px 0 25px;
+}
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #ff85c1;
+  transform: scale(1.05);
+}
+.msg {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #444;
+  font-weight: bold;
+}
+.signature {
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px;
+  color: #c9184a;
+  animation: fadeInName 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInName {
+  0% { opacity: 0; transform: translateY(30px) scale(0.9); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}

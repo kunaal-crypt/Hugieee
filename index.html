@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Hug from Nishu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>A Hug from Nishu 💞</h1>
+  <p>Whenever you miss me, just click this button 🫂</p>
+  <button onclick="showHug()">Click Here for Hug</button>
+  <div id="hug" style="display:none; margin-top: 20px;">
+    <img src="https://media.giphy.com/media/wnsgren9NtITS/giphy.gif" alt="Hug" style="max-width: 300px; border-radius: 20px;">
+    <p class="msg">Mera pyaar tumhare saath hai... Hamesha 🤍</p>
+    <p class="signature">From your Kunal</p>
+    <audio controls autoplay style="margin-top: 20px;">
+      <source src="https://cdn.pixabay.com/download/audio/2023/04/24/audio_cfe1b4ce98.mp3?filename=romantic-message-144795.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <script>
+    function showHug() {
+      document.getElementById("hug").style.display = "block";
+    }
+  </script>
+</body>
+</html>
